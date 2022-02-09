@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(205 167 140);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.nav__Link {
+    display: block;
+    padding: 5px 20px;
+    color: #f3e5da;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 120%;
+    background-color: rgb(211 156 113);
+    transition: all 0.2s 0s ease-in-out;
+
+}

@@ -1,0 +1,7 @@
+.container_recipe__all {
+    margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+    /* background-color: rgb(127, 197, 255); */
+}
+

@@ -1,0 +1,13 @@
+.recipeCat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.recipeCat__catName {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 200%;
+}

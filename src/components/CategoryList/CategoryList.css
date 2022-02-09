@@ -1,0 +1,40 @@
+.container__cat {
+    margin-bottom: 20px;
+	display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+    align-items: stretch;
+}
+
+.recipeCat__list {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+	display: flex;
+}
+
+.recipeCat__list__link {
+	display: flex;
+    align-content: center;
+
+}
+
+.recipeCat__list__link a {
+    display: block;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #f3e5da;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 120%;
+    background-color: rgb(225 140 73);
+    transition: all 0.2s 0s ease-in-out;
+}
+
+.recipeCat__list__link a:hover {
+    background-color: rgb(255 120 13);
+}
+
+
+.recipeCat__list__link a:active {
+    background-color: rgb(255, 170, 13);
+}
